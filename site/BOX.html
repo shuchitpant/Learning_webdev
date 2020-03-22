@@ -4,21 +4,37 @@
     <title>this is the new box style</title>
     <style>
         body{
-            margin: 0;
+            margin-top: 30px;
             padding: 0;
             background-color: crimson;
         }
-        h1{
-            margin-bottom: 30px;
-
+        #ccl{
+            background-color:cyan;
+            text-align: center  ;
+            font-size: 35px;
+            padding: 20px 20px 20px 20px;
+            border: 3px solid black;
+            margin-left: 650px;
+            
+            width: 215px;
+            
+            box-sizing: border-box;
+        }
+        #lil{
+            background-color: greenyellow;;
         }
         #box{
             background-color:cyan;
             padding: 10px;
             border: 3px solid black;
-            margin:40px;
-            width: 450px;
+            margin-left: 1%;
+            margin-right: .5%;
+            margin-top: 1.5%;
+            margin-bottom: 1.5%;
+            width: 31%;
+            float: left;
             box-sizing: border-box;
+            overflow: auto;
 
 
         }
@@ -28,13 +44,32 @@
     </style>
 </head>
 <body>
-    <h1>Box Model</h1>
+    <div id="ccl">
+            <span id="lil">Box Model</span>
+    </div>
+    
     <div id="box">
         <div id="content">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sapiente hic ea sit minima omnis provident ducimus aspernatur praesentium fugiat vitae voluptas repellat neque aliquam possimus fugit, et itaque quo?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero perspiciatis pariatur aut laborum, hic illum velit minima corporis. Ullam iure a numquam quos suscipit et labore dicta accusamus harum?
 
         </div>
     </div>
+    <div id="box">
+            <div id="content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sapiente hic ea sit minima omnis provident ducimus aspernatur praesentium fugiat vitae voluptas repellat neque aliquam possimus fugit, et itaque quo?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero perspiciatis pariatur aut laborum, hic illum velit minima corporis. Ullam iure a numquam quos suscipit et labore dicta accusamus harum?
+    
+            </div>
+        </div>
+
+        <div id="box">
+                <div id="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sapiente hic ea sit minima omnis provident ducimus aspernatur praesentium fugiat vitae voluptas repellat neque aliquam possimus fugit, et itaque quo?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero perspiciatis pariatur aut laborum, hic illum velit minima corporis. Ullam iure a numquam quos suscipit et labore dicta accusamus harum?
+        
+                </div>
+            </div>
 
     
 </body>
