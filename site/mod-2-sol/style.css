@@ -57,6 +57,15 @@
 }
 
 @media (min-width:768px) AND (max-width:991px){
+    .bigheading{
+        margin-top: 6%;
+        text-align: center;
+        font-size: 300%;
+        margin-bottom: 6%;
+        
+        
+        
+    }
     .dabba1{
         background-color: grey;
         border: 3px solid black;
