@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (min-width:992px){
+    .bigheading{
+        margin-top: 4%;
+        text-align: center;
+        width: 30%;
+        margin-left: 35%;
+        font-size: 300%;
+        margin-bottom: 4%;
+        
+        
+        
+    }
+
+
+    .dabba{
+        background-color: grey;
+        border: 3px solid black;
+        width:31%;
+        margin-left: 1.5%;
+        float: left; 
+        position: relative;
+        font-size: 90%;
+        padding-left: 1%;
+        padding-bottom: 1%;
+        
+    }
+    .chotadabba{
+        background-color: palevioletred;
+        border: 3px solid black;
+        width: 33%;
+        position: relative;
+        border-top: 0px;
+        border-right: 0px;
+        right: -67%;
+        text-align: center;
+        font-size: 120%;
+        margin-bottom: 2%;
+        padding:0px;
+
+        
+    }
+    .beef1{
+        background-color:crimson;
+        color: white;
+
+    }
+    .sushi1{
+        background-color: goldenrod;
+    }
+    
+}
+
+@media (min-width:768px) AND (max-width:991px){
+    .dabba1{
+        background-color: grey;
+        border: 3px solid black;
+        width:46%;
+        margin-left: 1.33%;
+        margin-right: 1.33%;
+        float: left; 
+        position: relative;
+        font-size: 90%;
+        padding-left: 1%;
+        padding-bottom: 1%;
+
+    }
+    .dabba2{
+        background-color: grey;
+        border: 3px solid black;
+        width: 97.34%;
+        margin-left: 1.33%;
+        margin-right: 2.67%;
+        float: left;
+        position: relative;
+        font-size: 90%;
+        padding-left: 1%;
+        padding-bottom: 1%;
+    }
+}
+
+@media( max-width:767px){
+
+    .bigheading{
+        margin-top: 6%;
+        text-align: center;
+        width: 60%;
+        margin-left: 20%;
+        font-size: 300%;
+        margin-bottom: 6%;
+        
+        
+        
+    }
+
+    .dabba{
+        background-color: grey;
+        border: 3px solid black;
+        width: 97%;
+        margin-left: 1.5%; 
+        position: relative;
+        font-size: 90%;
+        padding-left: 2%;
+        padding-bottom: 2%;
+        margin-bottom: 3%;
+        
+    }
+    .chotadabba{
+        background-color: palevioletred;
+        border: 3px solid black;
+        width: 33%;
+        position: relative;
+        border-top: 0px;
+        border-right: 0px;
+        right: -67%;
+        text-align: center;
+        font-size: 120%;
+        margin-bottom: 2%;
+        padding:0px;
+    }
+    .beef1{
+        background-color:crimson;
+        color: white;
+
+    }
+    .sushi1{
+        background-color: goldenrod;
+    }
+
+}
